@@ -4,11 +4,15 @@ if (isset($_POST["a"]) && isset($_POST["b"])) {
 }
 ?>
 
-<html>
+<html lang="en">
 <body>
 <form action="2.php" method="post">
-    <input name="a"/>
-    <input name="b"/>
+    <label>
+        <input name="a"/>
+    </label>
+    <label>
+        <input name="b"/>
+    </label>
     <input type="submit"/>
 </form>
 </body>
