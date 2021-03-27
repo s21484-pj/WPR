@@ -1,6 +1,6 @@
 <html lang="en">
 <body>
-<form action="2.php" method="post">
+<form action="4.php" method="post">
     <label>
         <tr>
             <td>First number</td>
@@ -20,7 +20,15 @@
 
 <?php
 if (isset($_POST["a"]) && isset($_POST["b"])) {
+    echo ($_POST["a"]) + ($_POST["b"]);
+    echo ("<br>");
+    echo ($_POST["a"]) - ($_POST["b"]);
+    echo ("<br>");
     echo ($_POST["a"]) * ($_POST["b"]);
+    echo ("<br>");
+    echo ($_POST["a"]) / ($_POST["b"]);
+    echo ("<br>");
+    echo ($_POST["a"]) % ($_POST["b"]);
 }
 ?>
 </body>
