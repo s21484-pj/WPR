@@ -1,1 +1,3 @@
 # WPR
+
+Warsztaty Programistyczne PJATK
