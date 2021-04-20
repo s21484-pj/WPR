@@ -1,0 +1,3 @@
+people,name,last_name,address,phone_number,email_address,reservation_since,reservation_to,arrival
+2,Jan,Kowalski,"ul. Lipna 1/2 33-333 Lipowo","123 456 789",example@gmail.com,2021-04-21,2021-04-23,10:00
+3,Adam,Kowalski,"ul. Klonowa 10/2 55-355 Klonowo","111 222 333",example@gmail.com,2021-04-10,2021-04-24,
